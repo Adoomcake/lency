@@ -1,0 +1,26 @@
+{
+  "name": "lency",
+  "version": "1.0.0",
+  "description": "前端工程化工具",
+  "main": "create-project.js",
+  "scripts": {
+    "project": "node ./lency/create-project.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adoomcake/lency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adoomcake/lency/issues"
+  },
+  "homepage": "https://github.com/Adoomcake/lency#readme",
+  "dependencies": {
+    "node-notifier": "^5.2.1"
+  },
+  "devDependencies": {
+    "child_process": "^1.0.2",
+    "path": "^0.12.7"
+  }
+}
