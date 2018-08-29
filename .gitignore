@@ -4,6 +4,7 @@
 /.idea
 /audient/pages.json
 /node_modules
+/src
 .DS_Store
 yarn-error.log
 npm-debug.log

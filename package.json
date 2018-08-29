@@ -4,7 +4,9 @@
   "description": "前端工程化工具",
   "main": "create-project.js",
   "scripts": {
-    "project": "node ./lency/create-project.js"
+    "project": "node --experimental-modules ./lency/create-project.js",
+    "page": "node ./lency/create-page.js",
+    "widget": "node ./lency/create-widget.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
     "path": "^0.12.7"
   }
 }
